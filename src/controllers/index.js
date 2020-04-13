@@ -6,7 +6,7 @@ exports.USSDConnect = async (req, res) => {
   let response = "",
     data;
 
-  switch (test.charAt(test.length - 1)) {
+  switch (text.charAt(text.length - 1)) {
     case "":
       response =
         "CON Welcome to Corona Update in Nigeria \n 1. Nigeria Update \n 2. World Update";
