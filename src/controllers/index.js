@@ -7,6 +7,7 @@ exports.USSDConnect = async (req, res) => {
     data;
 
   switch (text.charAt(text.length - 1)) {
+    case "0": // allow fall through
     case "":
       response =
         "CON Welcome to Corona Update in Nigeria \n 1. Nigeria Update \n 2. World Update";
@@ -44,10 +45,6 @@ exports.USSDConnect = async (req, res) => {
       ncdc.gov.ng
       @built by Obikaonu Samuel
       `;
-      break;
-    case "0":
-      response =
-        "CON Welcome to Corona Update in Nigeria \n 1. Nigeria Update \n 2. World Update";
       break;
     default:
       response = "";
