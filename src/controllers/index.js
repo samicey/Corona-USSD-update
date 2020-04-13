@@ -53,6 +53,7 @@ exports.USSDConnect = async (req, res) => {
       response = "";
       break;
   }
+  return res.send(response);
 };
 
 exports.Home = (req, res) => {
