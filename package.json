@@ -1,0 +1,34 @@
+{
+  "name": "corona-update",
+  "version": "1.0.0",
+  "description": "This is a USSD service that gives accurate information about the corona virus pandemic in Nigeria",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start":"node app.js"
+  },
+  "keywords": [
+    "Corona",
+    "Virus",
+    "Nigeria",
+    "Lagos",
+    "Updates",
+    "NCDC"
+  ],
+  "author": "Obikaonu Samuel",
+  "license": "MIT",
+  "dependencies": {
+    "africastalking": "^0.4.5",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "supertest": "^4.0.2"
+  }
+}
