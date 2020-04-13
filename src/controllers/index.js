@@ -52,3 +52,6 @@ exports.USSDConnect = async (req, res) => {
 };
 
 
+exports.Home = (req,res)=>{
+  res.status(200).json({success:true, message:"App Connected Successfully" })
+}
