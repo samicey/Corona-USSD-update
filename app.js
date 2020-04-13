@@ -4,7 +4,6 @@ const africaTalk = require("africastalking");
 const logger = require("morgan");
 const USSDRoute = require("./src/route/USSDRoute");
 
-require("dotenv").config();
 
 const app = express();
 
