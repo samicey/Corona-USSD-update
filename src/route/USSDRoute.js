@@ -3,7 +3,7 @@ const router = express.Router();
 const USSDController = require("../controllers/");
 
 router.post("/",USSDController.USSDConnect)
-      .get("/",)
+      .get("/",USSDController.Home)
 
 
 module.exports = router;
