@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+ - "stable"
+cache: 
+  directories: 
+    - "node_modules" 
+install:
+  - npm install   
+ 
+env: 
+   global: 
+   - NODE_ENV=development
+
+script: 
+   - npm run test
+
+
+
+ 
+ 
