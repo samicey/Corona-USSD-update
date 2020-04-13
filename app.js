@@ -1,6 +1,5 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const africaTalk = require("africastalking");
 const logger = require("morgan");
 const USSDRoute = require("./src/route/USSDRoute");
 const cors = require("cors");
