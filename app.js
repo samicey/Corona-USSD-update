@@ -17,6 +17,9 @@ const port = process.env.port || "8080";
 
 app.use("/", USSDRoute);
 
+app.get("/",(req,res)=>{
+  res.status(200).json({success:true, message:"App Connected Successfully" })
+})
 app.listen(port, (err) => {
   console.log("You are doing well");
 });
