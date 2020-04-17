@@ -4,7 +4,7 @@
   "description": "This is a USSD service that gives accurate information about the corona virus pandemic in Nigeria",
   "main": "app.js",
   "scripts": {
-    "test": "mocha ./test/USSD.test.js",
+    "test": "mocha ./test/USSD.test.js  --timeout 2000 --exit",
     "start": "node ./app.js"
   },
   "keywords": [
