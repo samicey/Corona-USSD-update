@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/samicey/Corona-USSD-update.svg?branch=master)](https://travis-ci.org/samicey/Corona-USSD-update)
+
 # Corona Virus Update in Nigeria
 
 This is a project that enables people in nigeria to get update about the corona virus pandemic on their phone via ussd.
